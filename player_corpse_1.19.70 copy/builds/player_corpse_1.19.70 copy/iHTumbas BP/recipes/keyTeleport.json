@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "pog:diamontTeleport"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "pog:bone_dust"
+			},
+			{
+				"item": "minecraft:diamond"
+			},
+			{
+				"item": "minecraft:blaze_powder"
+			},
+			{
+				"item": "minecraft:glowstone_dust"
+			}
+		],
+		"result": {
+			"item": "pog:diamontTeleport",
+			"count": 1
+		}
+	}
+}

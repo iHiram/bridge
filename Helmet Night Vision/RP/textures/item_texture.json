@@ -1,0 +1,12 @@
+{
+	"resource_pack_name": "Helmet Night Vision",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"bridge_netherite_nv_helmet": {
+			"textures": "textures/items/helmet_nv_helmet"
+		},
+		"bridge_netherite_nv_helmet_notch_helmet": {
+			"textures": "textures/items/helmet_nv_helmet"
+		}
+	}
+}

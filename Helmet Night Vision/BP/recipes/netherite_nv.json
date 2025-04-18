@@ -1,0 +1,49 @@
+{
+	"format_version": "1.19.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bridge:netherite_nv"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"DMF",
+			"THE",
+			"ACG"
+		],
+		"key": {
+			"D": {
+				"item": "minecraft:sniffer_egg"
+			},
+			"M": {
+				"item": "minecraft:conduit"
+			},
+			"A": {
+				"item": "minecraft:experience_bottle"
+			},
+			"T": {
+				"item": "minecraft:turtle_helmet"
+			},
+			"H": {
+				"item": "minecraft:netherite_helmet"
+			},
+			"E": {
+				"item": "minecraft:end_crystal"
+			},
+			"C": {
+				"item": "minecraft:elytra"
+			},
+			"G": {
+				"item": "minecraft:goat_horn"
+			},
+			"F": {
+				"item": "minecraft:totem_of_undying"
+			}
+		},
+		"result": {
+			"item": "bridge:netherite_nv_helmet",
+			"count": 1
+		}
+	}
+}

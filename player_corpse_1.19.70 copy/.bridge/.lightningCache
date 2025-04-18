@@ -1,0 +1,157 @@
+$formatVersion: 1
+#manifest
+projects/player_corpse_1.19.70 copy/BP/manifest.json|1744945287
+#unknown
+projects/player_corpse_1.19.70 copy/BP/pack_icon.png|1681749119
+projects/player_corpse_1.19.70 copy/RP/pack_icon.png|1681749119
+projects/player_corpse_1.19.70 copy/BP/items.zip|1726498248
+#gameTest
+projects/player_corpse_1.19.70 copy/BP/scripts/death_coords.js|1726454219
+#customCommand
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/compare.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/buildtext.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/dropitem.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/palette.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/explode.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/flip.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/kit.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/shape.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/scoredetails.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/sudo.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/toggletag.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/random.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/mobwave.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/xpdisplay.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/log.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/repeat.js|1681749711
+projects/player_corpse_1.19.70 copy/BP/commands/toolbox/rotate.js|1681749711
+#animation
+projects/player_corpse_1.19.70 copy/BP/animations/animation.player_corpse.pickup.items.json|1724013411|{"identifier":["animation.player_corpse.pickup.items"],"functionPath":[],"entityTag":[],"scoreboardObjective":[]}
+#animationController
+projects/player_corpse_1.19.70 copy/BP/animation_controllers/player_death.json|1724013411|{"identifier":["controller.animation.poggy.player_death"],"state":["player_alive","spawn_corpse"],"functionPath":[],"entityTag":[],"scoreboardObjective":[]}
+#block
+projects/player_corpse_1.19.70 copy/BP/blocks/jar_ash.block.json|1724013456|{"identifier":["pog:jar_ash"],"geometryIdentifier":["geometry.jar_ash"],"texture":["jar_ash"],"tag":[]}
+#function
+projects/player_corpse_1.19.70 copy/BP/functions/despawn_corpse_in_radius.mcfunction|1681749119|{"entityTag":["lol"],"functionPath":[],"scoreboardObjective":[]}
+#lootTable
+projects/player_corpse_1.19.70 copy/BP/loot_tables/decayed_bone.loottable.json|1681749119|{"lootTablePath":[]}
+#item
+projects/player_corpse_1.19.70 copy/BP/items/diamontTeleport.json|1724014706|{"identifier":["pog:diamondTeleport"],"itemTexture":["diamond"],"tag":[]}
+projects/player_corpse_1.19.70 copy/BP/items/bone_dust.json|1724014426|{"identifier":["pog:bone_dust"],"itemTexture":["bone_dust"],"tag":[]}
+projects/player_corpse_1.19.70 copy/BP/items/decayed_bone.json|1724014466|{"identifier":["pog:decayed_bone"],"itemTexture":["decayed_bone"],"tag":[]}
+#recipe
+projects/player_corpse_1.19.70 copy/BP/recipes/bonemeal.recipe.json|1724013484|{"identifier":["pog:bonemeal"],"recipeTag":["crafting_table"],"itemIdentifier":["minecraft:bone_meal","pog:bone_dust"]}
+projects/player_corpse_1.19.70 copy/BP/recipes/bone_ash.recipe.json|1724013484|{"identifier":["pog:bone_ash"],"recipeTag":["campfire","soul_campfire"],"itemIdentifier":["item","pog:bone_dust"]}
+projects/player_corpse_1.19.70 copy/BP/recipes/jar.json|1724013484|{"identifier":["pog:ash_jar"],"recipeTag":["crafting_table"],"itemIdentifier":["pog:jar_ash","pog:bone_dust","minecraft:glass_bottle"]}
+projects/player_corpse_1.19.70 copy/BP/recipes/keyTeleport.json|1724014112|{"identifier":["pog:diamondTeleport"],"recipeTag":["crafting_table"],"itemIdentifier":["pog:diamondTeleport","pog:bone_dust","minecraft:diamond","minecraft:blaze_powder","minecraft:glowstone_dust"]}
+#entity
+projects/player_corpse_1.19.70 copy/BP/entities/player_corpse.behavior.json|1724017827|{"identifier":["pog:player_corpse"],"event":["decay_stage_1","decay_stage_2","decay_stage_3","marked","delete_corpse","minecraft:entity_spawned","taged","entity_transform"],"eventReference":["test","decay_stage_1","delete_corpse","decay_stage_2","decay_stage_3"],"componentGroup":["marked","transform_entity","delete_corpse","variant_1","variant_2","variant_3","add_tag"],"animation":["basic","drop_dust"],"animationIdentifier":["controller.animation.poggy.player_death","animation.player_corpse.pickup.items"],"functionPath":[],"entityTag":[],"scoreboardObjective":[]}
+#mcstructure
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_0.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_2.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_3.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_4.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_1.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_5.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_6.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_7.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_8.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_9.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_asterisk.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_a.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_b.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_bracket_close.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_bracket_open.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_c.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_colon.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_caret.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_comma.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_d.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_dash.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_divide.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_dot.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_e.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_exclamation.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_equals.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_doublequote.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_f.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_g.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_h.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_hashtag.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_i.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_j.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_k.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_l.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_m.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_n.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_percent.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_plus.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_period.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_q.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_question.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_o.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_p.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_quote.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_r.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_s.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_semicolon.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_slash.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_t.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_tilde.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_times.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_u.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_v.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_underscore.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_verticalLine.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_x.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_w.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_y.mcstructure|1681749711
+projects/player_corpse_1.19.70 copy/BP/structures/bridge/buildtext_z.mcstructure|1681749711
+#customComponent
+projects/player_corpse_1.19.70 copy/BP/components/item/bridge/itemEquippedSensor.js|1684649178
+#clientBlock
+projects/player_corpse_1.19.70 copy/RP/blocks.json|1681749119|{"identifier":["jar_ash"]}
+#clientManifest
+projects/player_corpse_1.19.70 copy/RP/manifest.json|1744945288|{"uuid":["cb52e7bf-712b-41d7-8408-b3c8e769a2ce"]}
+#langDef
+projects/player_corpse_1.19.70 copy/RP/texts/languages.json|1681749119
+#texture
+projects/player_corpse_1.19.70 copy/RP/textures/bridge.png|1681749673
+projects/player_corpse_1.19.70 copy/RP/textures/entity/player_corpse.png|1681749119
+projects/player_corpse_1.19.70 copy/RP/textures/entity/player_corpse_decay_1.png|1681749119
+projects/player_corpse_1.19.70 copy/RP/textures/entity/player_corpse_decay_2.png|1681749119
+projects/player_corpse_1.19.70 copy/RP/textures/blocks/jar_ash.png|1681749119
+projects/player_corpse_1.19.70 copy/RP/textures/entity/player_corpse_decay_3.png|1681749119
+projects/player_corpse_1.19.70 copy/RP/textures/items/3erojo_helmet.png|1684982805
+projects/player_corpse_1.19.70 copy/RP/textures/items/bone_dust.png|1681749119
+projects/player_corpse_1.19.70 copy/RP/textures/items/bone_dust2 (2).png|1688925170
+projects/player_corpse_1.19.70 copy/RP/textures/items/decayed_bone.png|1681749119
+projects/player_corpse_1.19.70 copy/RP/textures/models/armor/3erojo_1.png|1684982805
+projects/player_corpse_1.19.70 copy/RP/textures/models/armor/3erojo_2.png|1684982805
+#ui
+projects/player_corpse_1.19.70 copy/RP/ui/how_to_play_common.json|1681749673
+projects/player_corpse_1.19.70 copy/RP/ui/chest_screen.json|1681749119
+projects/player_corpse_1.19.70 copy/RP/ui/pocket_containers.json|1681749119
+#clientAnimation
+projects/player_corpse_1.19.70 copy/RP/animations/player_corpse.animation.json|1724013433|{"identifier":["animation.player_corpse.despawn"]}
+#clientAnimationController
+projects/player_corpse_1.19.70 copy/RP/animation_controllers/controller.animation.corpse.desolve.json|1724013411|{"identifier":["controller.animation.corpse.desolve"],"state":["default","desolve"],"animationReference":["desolve"]}
+#renderController
+projects/player_corpse_1.19.70 copy/RP/render_controllers/player_corpse_render_controller.json|1724013433|{"identifier":["controller.render.player_corpse"]}
+#clientLang
+projects/player_corpse_1.19.70 copy/RP/texts/en_US.lang|1684982805|{"actionText":[]}
+projects/player_corpse_1.19.70 copy/RP/texts/es_ES.lang|1681749119|{"actionText":[]}
+projects/player_corpse_1.19.70 copy/RP/texts/es_MX.lang|1681749119|{"actionText":[]}
+#geometry
+projects/player_corpse_1.19.70 copy/RP/models/entity/player_corpse.geo.json|1724013411|{"identifier":["geometry.player_corpse"],"bone":["waist","body","chest","head","hat","rightArm","rightItem","leftArm","leftItem","rightLeg","leftLeg"]}
+projects/player_corpse_1.19.70 copy/RP/models/entity/player_corpse_1.geo.json|1724013479|{"identifier":["geometry.player_corpse_1"],"bone":["waist","body","chest","head","hat","rightArm","rightItem","leftArm","leftItem","rightLeg","leftLeg"]}
+projects/player_corpse_1.19.70 copy/RP/models/entity/player_corpse_2.geo.json|1724013479|{"identifier":["geometry.player_corpse_2"],"bone":["waist","body","chest","head","hat","rightArm","rightItem","leftArm","leftItem","rightLeg","leftLeg"]}
+projects/player_corpse_1.19.70 copy/RP/models/blocks/jar_ash.geo.json|1724013497|{"identifier":["geometry.jar_ash"],"bone":["bb_main"]}
+#clientEntity
+projects/player_corpse_1.19.70 copy/RP/entity/player_corpse.entity.json|1724013411|{"identifier":["pog:player_corpse"],"animationReference":["basic","desolve"],"textureReference":["default","decay_stage_1","decay_stage_2","decay_stage_3"],"materialReference":["default"],"geometryReference":["player_corpse","player_corpse_1","player_corpse_2"],"animationIdentifier":["controller.animation.corpse.desolve","animation.player_corpse.despawn"],"materialIdentifier":["skeleton"],"geometryIdentifier":["geometry.player_corpse","geometry.player_corpse_1","geometry.player_corpse_2"],"renderControllerIdentifier":["controller.render.player_corpse"],"texturePath":["projects/player_corpse_1.19.70 copy/RP/textures/entity/player_corpse.png","projects/player_corpse_1.19.70 copy/RP/textures/entity/player_corpse_decay_1.png","projects/player_corpse_1.19.70 copy/RP/textures/entity/player_corpse_decay_3.png","projects/player_corpse_1.19.70 copy/RP/textures/entity/player_corpse_decay_2.png"]}
+#attachable
+projects/player_corpse_1.19.70 copy/RP/attachables/3erojo_helmet.json|1724013433|{"identifier":["pog:3erojo_helmet"],"textureReference":["default","enchanted"],"materialReference":["default","enchanted"],"geometryReference":["default"],"materialIdentifier":["armor","armor_enchanted"],"geometryIdentifier":["geometry.humanoid.armor.helmet"],"renderControllerIdentifier":["controller.render.armor"],"texturePath":["projects/player_corpse_1.19.70 copy/RP/textures/models/armor/3erojo_1.png"]}
+#itemTexture
+projects/player_corpse_1.19.70 copy/RP/textures/item_texture.json|1724014112|{"texture":["decayed_bone","bone_dust","diamondTeleport"],"texturePath":["projects/player_corpse_1.19.70 copy/RP/textures/items/decayed_bone.png","projects/player_corpse_1.19.70 copy/RP/textures/items/bone_dust.png"]}
+#terrainTexture
+projects/player_corpse_1.19.70 copy/RP/textures/terrain_texture.json|1681749119|{"texture":["jar_ash"],"texturePath":[]}

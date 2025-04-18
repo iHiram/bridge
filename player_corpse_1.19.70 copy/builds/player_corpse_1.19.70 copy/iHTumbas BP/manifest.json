@@ -1,0 +1,73 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Tumbas iH",
+		"description": "iHiram",
+		"uuid": "f9cf357d-0aba-439d-b9f5-f8d2c9798d15",
+		"version": [
+			1,
+			10,
+			113
+		],
+		"min_engine_version": [
+			1,
+			19,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "0afb715e-9ce7-4e2f-bba1-e78877d34641",
+			"version": [
+				1,
+				0,
+				9
+			]
+		},
+		{
+			"language": "javascript",
+			"type": "script",
+			"uuid": "e9c5708d-f22f-4c96-b423-0cf81d559692",
+			"version": [
+				1,
+				0,
+				9
+			],
+			"entry": "scripts/death_coords.js"
+		}
+	],
+	"capabilities": [
+		"script_eval"
+	],
+	"dependencies": [
+		{
+			"description": "mojang-minecraft-ui",
+			"uuid": "2bd50a27-ab5f-4f40-a596-3641627c635e",
+			"version": "1.1.0"
+		},
+		{
+			"description": "mojang-minecraft",
+			"uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+			"version": "1.11.0"
+		},
+		{
+			"uuid": "cb52e7bf-712b-41d7-8408-b3c8e769a2ce",
+			"version": [
+				1,
+				10,
+				16
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.7.33"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	}
+}

@@ -1,0 +1,63 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"iHiram"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.45"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "iHExtreme",
+		"description": "Seguro moriras.",
+		"min_engine_version": [
+			1,
+			19,
+			0
+		],
+		"uuid": "81b642a4-2c76-4dbe-b255-769311d07e1d",
+		"version": [
+			1,
+			1,
+			40
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "961b74b9-da48-4291-8e7c-6abe5bb58964",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "81e6e4b6-b3f2-4858-a144-cfb97ec78878",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	]
+}

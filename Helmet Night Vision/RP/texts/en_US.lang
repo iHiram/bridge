@@ -1,0 +1,17 @@
+pack.name=Helmet Night Vision RP
+pack.description=Helmet Night Vision
+item.bridge:netherite_nv_helmet=netherite nv Helmet
+item.bridge:netherite_nv_chestplate=netherite nv Chestplate
+item.bridge:netherite_nv_leggings=netherite nv Leggings
+item.bridge:netherite_nv_boots=netherite nv Boots
+item.bridge:netherite_nv_helmet_notch_helmet=netherite_nv_helmet Helmet
+item.bridge:netherite_nv_helmet_notch_chestplate=netherite_nv_helmet Chestplate
+item.bridge:netherite_nv_helmet_notch_leggings=netherite_nv_helmet Leggings
+item.bridge:netherite_nv_helmet_notch_boots=netherite_nv_helmet Boots
+item.bridge:testitem_helmet=testitem Helmet
+item.bridge:testitem_chestplate=testitem Chestplate
+item.bridge:testitem_leggings=testitem Leggings
+item.bridge:testitem_boots=testitem Boots
+item.bridge:testtest=testtest
+
+entity.bridge:thrown_testtest.name=testtest

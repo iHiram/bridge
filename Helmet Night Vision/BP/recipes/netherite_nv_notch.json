@@ -1,0 +1,51 @@
+{
+	"format_version": "1.19.60",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "bridge:netherite_nv_notch"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"DMG",
+			"THI",
+			"CAF"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:beacon"
+			},
+			"H": {
+				"item": "bridge:netherite_nv_helmet"
+			},
+			"M": {
+				"item": "minecraft:enchanted_golden_apple"
+			},
+			"T": {
+				"item": "minecraft:sculk_catalyst"
+			},
+			"C": {
+				"item": "minecraft:music_disc_pigstep"
+			},
+			"D": {
+				"item": "minecraft:music_disc_relic"
+			},
+			"F": {
+				"item": "minecraft:mace"
+			},
+			"G": {
+				"item": "minecraft:skull",
+				"data": 4 // Esto es más un ejemplo; Bedrock Edition puede que no soporte valores de datos en recetas
+			},
+			"I": {
+				"item": "minecraft:skull",
+				"data": 5 // Esto es más un ejemplo; Bedrock Edition puede que no soporte valores de datos en rec
+			}
+		},
+		"result": {
+			"item": "bridge:netherite_nv_helmet_notch",
+			"count": 1
+		}
+	}
+}

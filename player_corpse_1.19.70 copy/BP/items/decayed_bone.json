@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "pog:decayed_bone",
+			"category": "items" // Sugerido si es un material genérico
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:display_name": {
+				"value": "Decayed Bone" // Cambiado a un formato estándar para nombres de ítems
+			},
+			"minecraft:icon": {
+				"texture": "decayed_bone"
+			}
+		}
+	}
+}

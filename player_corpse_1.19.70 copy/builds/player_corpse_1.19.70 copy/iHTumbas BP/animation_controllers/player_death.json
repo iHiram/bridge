@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.poggy.player_death": {
+			"initial_state": "player_alive",
+			"states": {
+				"player_alive": {
+					"animations": [
+						"drop_dust"
+					],
+					"transitions": [
+						{
+							"spawn_corpse": "q.is_alive||q.mark_variant==0"
+						}
+					]
+				},
+				"spawn_corpse": {
+					"on_entry": [
+						"/tp @e[type=item, r=8] @e[type=pog:player_corpse, r=8]",
+						"/event entity @e[type=pog:player_corpse] marked"
+					],
+					"transitions": [
+						{
+							"player_alive": "q.mark_variant==1"
+						}
+					]
+				}
+			}
+		}
+	}
+}

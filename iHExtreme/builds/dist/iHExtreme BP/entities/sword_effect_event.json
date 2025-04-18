@@ -1,0 +1,116 @@
+{
+	"minecraft:entity": {
+		"events": {
+			"magic_siphon": {
+				"randomize": [
+					{
+						"probability": 0.1,
+						"sequence": [
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=speed] ~ ~ ~ run effect @s speed 180 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=strength] ~ ~ ~ run effect @s strength 180 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=regeneration] ~ ~ ~ run effect @s regeneration 180 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=absorption] ~ ~ ~ run effect @s absorption 180 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=fire_resistance] ~ ~ ~ run effect @s fire_resistance 180 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=water_breathing] ~ ~ ~ run effect @s water_breathing 180 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=jump_boost] ~ ~ ~ run effect @s jump_boost 180 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=invisibility] ~ ~ ~ run effect @s invisibility 180 1 true",
+									"target": "@s"
+								}
+							}
+						]
+					},
+					{
+						"probability": 0.01,
+						"sequence": [
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=speed] ~ ~ ~ run effect @s speed 999999 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=strength] ~ ~ ~ run effect @s strength 999999 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=regeneration] ~ ~ ~ run effect @s regeneration 999999 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=absorption] ~ ~ ~ run effect @s absorption 999999 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=fire_resistance] ~ ~ ~ run effect @s fire_resistance 999999 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=water_breathing] ~ ~ ~ run effect @s water_breathing 999999 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=jump_boost] ~ ~ ~ run effect @s jump_boost 999999 1 true",
+									"target": "@s"
+								}
+							},
+							{
+								"execute_command": {
+									"command": "/execute @e[has_effect=invisibility] ~ ~ ~ run effect @s invisibility 999999 1 true",
+									"target": "@s"
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

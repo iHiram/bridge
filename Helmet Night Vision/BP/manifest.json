@@ -1,0 +1,71 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"iHiram"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.45"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "Helmet Night Vision",
+		"description": "Helmet Night Vision",
+		"min_engine_version": [
+			1,
+			19,
+			60
+		],
+		"uuid": "a8818237-e834-463c-bc68-a8b166c8925f",
+		"version": [
+			1,
+			0,
+			62
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "47dcf8c6-8edc-4aa7-ba90-6f69cd69a47f",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "acace0e7-c61c-46b1-b433-53fa39ff6fbe",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		},
+		{
+			"uuid": "cd760ec5-2fd1-475b-838e-2197dc84bf1d",
+			"version": [
+				1,
+				0,
+				74
+			]
+		}
+	]
+}

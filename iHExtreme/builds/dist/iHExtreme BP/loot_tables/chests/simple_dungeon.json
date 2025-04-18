@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "my_namespace:custom_loot",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

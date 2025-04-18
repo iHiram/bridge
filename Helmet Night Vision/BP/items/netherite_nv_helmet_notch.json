@@ -1,0 +1,66 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bridge:netherite_nv_helmet_notch",
+			"category": "equipment"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "bridge_netherite_nv_helmet"
+			},
+			"minecraft:display_name": {
+				"value": "netherite nv notch"
+			},
+			"minecraft:armor": {
+				"protection": 3
+			},
+			"minecraft:durability": {
+				"max_durability": 407
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			},
+			"minecraft:enchantable": {
+				"value": 9,
+				"slot": "armor_head"
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"minecraft:netherite_ingot"
+						],
+						"repair_amount": "query.max_durability * 0.1 * (1 - query.remaining_durability / query.max_durability)"
+					}
+				]
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.helmet"
+			},
+			"minecraft:equipment": {
+				"equip_sound": "equip_armor",
+				"on_equip": {
+					"event": "apply_night_vision"
+				},
+				"on_unequip": {
+					"event": "remove_night_vision"
+				}
+			},
+			"minecraft:use_duration": 32,
+			"minecraft:max_stack_size": 1
+		},
+		"events": {
+			"apply_night_vision": {
+				"run_command": {
+					"command": "effect @e[has_equipment={type=armor.head,item=bridge:netherite_nv_helmet_notch}] night_vision 999999 1 true"
+				}
+			},
+			"remove_night_vision": {
+				"run_command": {
+					"command": "effect @s night_vision 3"
+				}
+			}
+		}
+	}
+}
